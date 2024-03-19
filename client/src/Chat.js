@@ -7,7 +7,7 @@ const SystemMessage = {
   author: "Bot",
 };
 
-const socket = io('http://184.72.93.152:4000', { autoConnect: false });
+const socket = io('https://stage.dcpsrv.com', { autoConnect: false });
 
 export function Chat({ currentUser, onLogout }) {
   const [inputValue, setInputValue] = useState("");
